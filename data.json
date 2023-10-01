@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "pattern": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "greetings",
+        "I need you help",
+        "Can you help me"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How may I help you?",
+        "Hey! What can I do for you?",
+        "Yo! What's on your mind?",
+        "Good day! How may I be of service?",
+        "Greetings! How can I assist you today?",
+        "How may I help you today?",
+        "What can I assist you with?",
+        "Hi there, pal! How can I assist you today?"
+      ]
+    },
+    {
+        "tags": "",
+        "patterns": [
+
+        ],
+        "responses": [
+
+        ]
+    }
+  ]
+}
