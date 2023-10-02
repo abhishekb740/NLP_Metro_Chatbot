@@ -9,6 +9,10 @@ step1a_set = [
     ("s", ""),  # S    ->
 ]
 
+# step1b_set = [
+#      ("")
+# ]
+
 
 
 def stemming():
