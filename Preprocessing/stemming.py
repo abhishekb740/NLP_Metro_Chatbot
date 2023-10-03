@@ -1,6 +1,6 @@
 step1a_set = [
-    ("sses", "ss"),  # SSES -> SS
-    ("ies", "i"),  # IES  -> I
+    ("sses", "ss"), 
+    ("ies", "i"), 
     ("ss", "ss"),
     ("s", ""),
     ("tions", "t"),
@@ -62,7 +62,6 @@ step1a_set = [
     ("izations", "ize"),
     ("izations", "ize"),
     ("izations", "ize"),
-    ("ish", ""),
     ("ishly", ""),
     ("ishness", ""),
     ("ishnesses", "ishness"),
@@ -84,6 +83,8 @@ step1a_set = [
     ("isticatednesses", "isticatedness"),
     ("istication", "isticate"),
     ("istications", "isticate"),
+    ("evening" , "evening")
+    ("morning" , "morning")
     ("ism", ""),
     ("isms", "ism"),
     ("ist", ""),
@@ -115,10 +116,6 @@ step1a_set = [
     ("ize", ""),
     ("ize", ""),
     ("izing", "ize"),
-    ("izing", "ize"),
-    ("izing", "ize"),
-    ("ized", "ize"),
-    ("ized", "ize"),
     ("ized", "ize"),
     ("al", ""),
     ("ally", ""),

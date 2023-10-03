@@ -1,6 +1,6 @@
 import json
 
-with open('data.json', 'r') as f:
+with open('DataHinglish.json', 'r') as f:
     intents = json.load(f)
     
 
@@ -19,19 +19,21 @@ for intent in intents['intents']:
     for pattern in intent['patterns']:
         # tokenize each word in the sentence
         w = tokenization_of_words(pattern)
-        print("**************************************** print the tokenization of words ************************************************", "\n\n")
+        # print("**************************************** print the tokenization of words ************************************************", "\n\n")
         print("Tokenized Words", w)
         w2 = removal_of_stop_words(w)
-        print("**************************************** print the Stop of words ************************************************" ,'\n\n' )
+        # print("**************************************** print the Stop of words ************************************************" ,'\n\n' )
         
         print("Stopwords Removed", w2)
-        print("**************************************** print the Stemming of words ************************************************" ,"\n\n")
+        # print("**************************************** print the Stemming of words ************************************************" ,"\n\n")
         w3=stemming(w2)
         print("Stemmed Words", w3)
         # add to our words list
         all_words.extend(w3)
         # add to xy pair
         xy.append((w2, tag))
+        
+        print('\n\n')
 
 
 
