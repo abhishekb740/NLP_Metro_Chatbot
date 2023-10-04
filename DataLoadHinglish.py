@@ -6,7 +6,10 @@ with open('DataHinglish.json', 'r', encoding='utf-8') as f:
 
 # Your Hinglish_Preprocessing functions
 from Hinglish_Preprocessing.tokenization import tokenize_without_numbers as tokenization_of_words
+
 from Hinglish_Preprocessing.stemming import stem_word
+
+from Hinglish_Preprocessing.stopwordsProcess import Hinglish_stop_words as HindiStopWords
 
 all_words = []
 tags = []
@@ -22,11 +25,15 @@ for intent in intents["intents"]:
         w = tokenization_of_words(pattern)
         print("\n", "**************************************** print the tokenization of words ************************************************", "\n")
         print("Tokenized Words", w)
-        # print("Tokenized Hinglish",w)
+        
+        w1 = HindiStopWords(w)
+        print("\n","******** print after removing the stop words **************", "\n")
+        print("Stopwords after Removed", w1)
+        
         stemmed_words = []
         for word in w:
-            w1 = stem_word(word)
-            stemmed_words.append(w1)
+            w2 = stem_word(word)
+            stemmed_words.append(w2)
         print("\n", "**************************************** print the Stemming of words ************************************************" ,"\n")
         print("Stemmed Words", stemmed_words , "\n")
 
