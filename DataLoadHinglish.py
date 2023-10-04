@@ -20,26 +20,32 @@ for intent in intents["intents"]:
     # add to tag list
     tags.append(tag)
     for pattern in intent['patterns']:
-        print("**************************************** print the data before tokenization ************************************************", "\n")
+        print("******** Data before tokenization ********", "\n")
         print(pattern)
         w = tokenization_of_words(pattern)
-        print("\n", "**************************************** print the tokenization of words ************************************************", "\n")
+        print("\n", "******** tokenization the words ********", "\n")
         print("Tokenized Words", w)
         
         w1 = HindiStopWords(w)
-        print("\n","******** print after removing the stop words **************", "\n")
+        print("\n","******** Removed the Stop words ********", "\n")
         print("Stopwords after Removed", w1)
         
         stemmed_words = []
-        for word in w:
+        for word in w1:
             w2 = stem_word(word)
             stemmed_words.append(w2)
-        print("\n", "**************************************** print the Stemming of words ************************************************" ,"\n")
+        print("\n", "******** Stemming of words ********" ,"\n")
         print("Stemmed Words", stemmed_words , "\n")
+        
+        xy.extend((tag , stemmed_words))
 
-# Print the stemmed dataset
-# for intent in stemmed_dataset:
-#     print("Tag:", intent["tag"])
-#     print("Stemmed Patterns:", intent["patterns"])
-#     print("Responses:", intent["responses"])
-#     print()
+# stem and lower each word
+ignore_words = ['?', '.', '!']
+# all_words = [stem(w) for w in all_words if w not in ignore_words]
+# remove duplicates and sort
+all_words = sorted(set(all_words))
+tags = sorted(set(tags))
+
+print(len(xy), "patterns" , xy , '\n')
+# print(len(tags), "tags:", tags , '\n')
+# print(len(stemmed_words), "unique stemmed words:", stemmed_words , '\n')

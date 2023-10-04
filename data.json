@@ -5359,37 +5359,37 @@
       "tag": "metrofaremedia",
       "patterns": [
         "What are the acceptable fare media for traveling within the metro?",
-        "What are the acceptable fare media for travelling in the ahemdabad metro?",
-        "What are fare media for ahemdabad metro?"
+        "What are the acceptable fare media for travelling in the ahmedabad metro?",
+        "What are fare media for ahmedabad metro?"
       ],
       "responses": [
-        "The acceptable fare media for traveling within the Ahemdabad Metro include Contactless Smart Token (CST), Contactless Smart Card (CSC), and Temporary Paper Ticket (It will be used in case of Failure of AFC System)",
-        "Following are the Fare Media allowed for Travelling within Ahemdabad Metro \n  Contactless Smart Token (CST)\n   Contactless Smart Card (CSC)\n Temporary Paper Ticket (It will be used in case of Failure of AFC System)"
+        "The acceptable fare media for traveling within the ahmedabad Metro include Contactless Smart Token (CST), Contactless Smart Card (CSC), and Temporary Paper Ticket (It will be used in case of Failure of AFC System)",
+        "Following are the Fare Media allowed for Travelling within ahmedabad Metro \n  Contactless Smart Token (CST)\n   Contactless Smart Card (CSC)\n Temporary Paper Ticket (It will be used in case of Failure of AFC System)"
       ]
     },
     {
       "tag": "metrofaremediatype",
       "patterns": [
         "What types of fare products are offered for traveling within the GMRC Network?",
-        "What types of fare products are offered for traveling in the Ahemdabad metro?",
-        "What are types of ticket available in Ahemdabad Metro?",
-        "Types of ticket in ahemdabad metro?"
+        "What types of fare products are offered for traveling in the ahmedabad metro?",
+        "What are types of ticket available in ahmedabad Metro?",
+        "Types of ticket in ahmedabad metro?"
       ],
       "responses": [
-        "The fare products available for traveling within the Ahemdabad Metro include Single Journey Token (SJT), Group Ticket (for groups of passengers more than 10), and Tourist Ticket.",
-        "Following are Fare Products available for Travelling within Ahemdabad Metro\n Single Journey Token (SJT)\n   Group Ticket (For Group of Passengers more than 10)\n  Tourist Ticket"
+        "The fare products available for traveling within the ahmedabad Metro include Single Journey Token (SJT), Group Ticket (for groups of passengers more than 10), and Tourist Ticket.",
+        "Following are Fare Products available for Travelling within ahmedabad Metro\n Single Journey Token (SJT)\n   Group Ticket (For Group of Passengers more than 10)\n  Tourist Ticket"
       ]
     },
     {
       "tag": "metrogroupticket",
       "patterns": [
         "How can passengers benefit from the Group Ticket when traveling within the GMRC Network?",
-        "How can passengers benefit from the Group Ticket in the Ahemdabad Metro?",
-        "How can passengers benefit from the Group Ticket when traveling in the Ahemdabad Metro?",
+        "How can passengers benefit from the Group Ticket in the ahmedabad Metro?",
+        "How can passengers benefit from the Group Ticket when traveling in the ahmedabad Metro?",
         "Is Group ticket available?",
-        "Is Group ticket available in Ahemdabad Metro?",
-        "No. of people required for group ticket in Ahemdabad Metro?",
-        "How many people for group ticket in Ahemdabad Metro?",
+        "Is Group ticket available in ahmedabad Metro?",
+        "No. of people required for group ticket in ahmedabad Metro?",
+        "How many people for group ticket in ahmedabad Metro?",
         "Number of people required for group ticket?",
         "How many people for group ticket?",
         "What are requirement for group ticket?"
@@ -5402,19 +5402,19 @@
       "tag": "metrotouristticket",
       "patterns": [
         "How can passengers benefit from the Tourist Ticket when traveling within the GMRC Network?",
-        "How can passengers benefit from the Tourist Ticket in the Ahemdabad Metro?",
-        "How can passengers benefit from the Tourist Ticket when traveling in the Ahemdabad Metro?",
+        "How can passengers benefit from the Tourist Ticket in the ahmedabad Metro?",
+        "How can passengers benefit from the Tourist Ticket when traveling in the ahmedabad Metro?",
         "Is Tourist ticket available?",
-        "Is Tourist ticket available in Ahemdabad Metro?",
+        "Is Tourist ticket available in ahmedabad Metro?",
         "What is the purpose of the Tourist Ticket in the GMRC Network?",
-        "What is the purpose of the Tourist Ticket in Ahemdabad Metro?",
+        "What is the purpose of the Tourist Ticket in ahmedabad Metro?",
         "What is the purpose of the Tourist Ticket?",
         "What are benefits of Tourist ticket?",
         "Benefits of Tourist ticket?"
       ],
       "responses": [
         "The Tourist Ticket within the GMRC Network is designed to cater to tourists and likely offers special pricing or features to enhance their experience.",
-        "The Tourist Ticket in Ahemdabad Metro is designed to cater to tourists and likely offers special pricing or features to enhance their experience."
+        "The Tourist Ticket in ahmedabad Metro is designed to cater to tourists and likely offers special pricing or features to enhance their experience."
       ]
     },
     {
@@ -5460,7 +5460,7 @@
         "payment methods to purchase ticket?",
         "Is Card taken for payment?",
         "Can I use card to purchase ticket?",
-        "Is Card taken for payment in ahemdabad metro?",
+        "Is Card taken for payment in ahmedabad metro?",
         "Is debit card a available method to purchase ticket?",
         "Is credit card a available method to purchase ticket?",
         "Is cash a available method to purchase ticket?",
@@ -5471,7 +5471,7 @@
         "payment methods to purchase fare media?",
         "Is Card taken for payment?",
         "Can I use card to purchase fare media?",
-        "Is Card taken for payment in ahemdabad metro?",
+        "Is Card taken for payment in ahmedabad metro?",
         "Is debit card a available method to purchase fare media?",
         "Is credit card a available method to purchase fare media?",
         "Is cash a available method to purchase fare media?",
@@ -5485,10 +5485,10 @@
       "tag": "metrorefund",
       "patterns": [
         "How does the refund process for tokens work within the GMRC Network?",
-        "How does the refund process for tokens work in Ahemdabad metro?",
+        "How does the refund process for tokens work in ahmedabad metro?",
         "When can passengers request a refund for tokens, and what are the specific conditions for obtaining a refund?",
         "Tokens that have not been used for entry can be refunded within what timeframe?",
-        "What is refund policy in Ahemdabad metro?",
+        "What is refund policy in ahmedabad metro?",
         "Can I get refund for unused ticket?",
         "Can I get refund for unused token?",
         "I have unused token.Can I get refund?",
@@ -5517,8 +5517,8 @@
       "tag": "metroluggage",
       "patterns": [
         "What are the luggage limits for passengers traveling within the GMRC Network in terms of weight and dimensions?",
-        "What are the luggage limits for passengers traveling in ahemdabad metro in terms of weight and dimensions?",
-        "What are the luggage limits for passengers traveling in ahemdabad metro in terms of weight and dimensions?",
+        "What are the luggage limits for passengers traveling in ahmedabad metro in terms of weight and dimensions?",
+        "What are the luggage limits for passengers traveling in ahmedabad metro in terms of weight and dimensions?",
         "What are the luggage limits for passengers traveling?",
         "Could you please provide information on the allowed luggage for passengers traveling?"
       ],
@@ -5547,7 +5547,7 @@
       "patterns": [
         "Is there a penalty for passengers who exceed the maximum time in the paid area of GMRC stations?",
         "Is there a penalty for passengers who exceed the maximum time in the paid area of metro stations?",
-        "Is there a penalty for passengers who exceed the maximum time in the paid area of Ahemdabad metro stations?",
+        "Is there a penalty for passengers who exceed the maximum time in the paid area of ahmedabad metro stations?",
         "What is the penalty imposed on passengers who stay in the paid area of metro stations beyond the maximum time?",
         "What is penalty on passengers who exceed maximum time in metro station?",
         "I stayed for more than maximum time in metro station.",
@@ -5561,7 +5561,7 @@
     {
       "tag": "metropenalty3",
       "patterns": [
-        "Is there a penalty for passengers who is without valid ticket in the paid area of Ahemdabad metro stations?",
+        "Is there a penalty for passengers who is without valid ticket in the paid area of ahmedabad metro stations?",
         "What is the penalty imposed on passengers who stay in the paid area of metro stations without ticket?",
         "What is penalty on passengers without ticket in metro station?",
         "I don't have a ticket for paid area of metro station",
@@ -5582,9 +5582,9 @@
       "patterns": [
         "What is first metro to start from Vastral Gam?",
         "What is first metro to start from Thaltej?",
-        "When does Ahemdabad metro starts?",
-        "What is the first train in Ahemdabad metro?",
-        "When does Passenger service starts in Ahemdabad metro"
+        "When does ahmedabad metro starts?",
+        "What is the first train in ahmedabad metro?",
+        "When does Passenger service starts in ahmedabad metro"
       ],
       "responses": [
         "First passenger service time from Vastral Gam is at 06:20 Hrs and\n  First passenger service time from Thaltej is at 06:20 Hrs.",
@@ -5596,9 +5596,9 @@
       "patterns": [
         "What is last metro from Vastral Gam?",
         "What is last metro from Thaltej?",
-        "When does last Ahemdabad metro starts?",
-        "What is the last train in Ahemdabad metro?",
-        "When does Passenger service ends in Ahemdabad metro?"
+        "When does last ahmedabad metro starts?",
+        "What is the last train in ahmedabad metro?",
+        "When does Passenger service ends in ahmedabad metro?"
       ],
       "responses": [
         "Last passenger service time from Vastral Gam is at 22:05 Hrs and\nLast passenger service time from Thaltej is at 22:05 Hrs.",
@@ -5623,16 +5623,16 @@
     {
       "tag": "metrostations",
       "patterns": [
-        "How many stations are there in Ahemdabad metro?",
-        "What is Total number of stations in Ahemdabad metro?",
-        "What are the stations in Ahemdabad metro?",
-        "List all stations in Ahemdabad metro?",
+        "How many stations are there in ahmedabad metro?",
+        "What is Total number of stations in ahmedabad metro?",
+        "What are the stations in ahmedabad metro?",
+        "List all stations in ahmedabad metro?",
         "How many metro stations are currently operational in Ahmedabad Metro?",
         "Can you list the names of all the metro stations in Ahmedabad Metro?",
         "What is the total length of the Ahmedabad Metro network?"
       ],
       "responses": [
-        "There are total 18 metro stations in Ahemdabad metro network (GMRC Network)\nStations are \nThaltej Gam\nThaltej\nDoordarshan Kendra\nGurukul Road\nGujarat University\nCommerce Six Road\nSP Stadium\nOld High Court\nShahpur\nGheekanta\nKalupur Station\nKankaria East\nApparel Park\nAmraiwadi\nRabari Colony\nVastral\nNirant Cross Road\nVastral Gam"
+        "There are total 18 metro stations in ahmedabad metro network (GMRC Network)\nStations are \nThaltej Gam\nThaltej\nDoordarshan Kendra\nGurukul Road\nGujarat University\nCommerce Six Road\nSP Stadium\nOld High Court\nShahpur\nGheekanta\nKalupur Station\nKankaria East\nApparel Park\nAmraiwadi\nRabari Colony\nVastral\nNirant Cross Road\nVastral Gam"
       ]
     },
     {

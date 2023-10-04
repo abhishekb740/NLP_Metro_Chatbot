@@ -5043,7 +5043,7 @@
     },
     {
       "tag": "HEnding",
-      "patterns": [
+      "patterns" :[
         "Aapki madad ke liye dhanyavaad!",
         "Jankari dene ke liye shukriya!",
         "Main aapki sahayata ke prati prashansa karta hoon!",
@@ -5071,6 +5071,175 @@
         "Great!,  Khushi hui ki main aapki madad kar sakta tha. Agar aapko aane wale samay mein aur jankari chahiye ho, toh bina kisi sankoch ke puchhna mat bhoolen. Ek shaandaar din ho!",
         "Agar aapko aage aur sahayata ki jarurat ho ya aur sawaal hon, toh bina kisi sankoch ke laut aana. Surakshit yatra ho!",
         "Main khush hoon ki aapko jankari upyogi lagi! Agar aapko aane wale samay mein metro se sambandhit aur madad ki jarurat ho, toh yaad rakhein, main yahan hoon aapke liye. Ek shaandaar din ho!"
+      ]
+    } , {
+      "tag": "Hmetrofaremedia",
+      "patterns": [
+        "Metro ke andar safar karne ke liye kis tarah ke fare media swikar kiye jaate hain?",
+        "Ahmedabad metro mein safar karne ke liye kis tarah ke fare media swikar kiye jaate hain?",
+        "Ahmedabad metro ke liye fare media kya hain?"
+      ],
+      "responses": [
+       "Ahmedabad Metro mein safar karne ke liye manzoor fare media mein Contactless Smart Token (CST), Contactless Smart Card (CSC), aur Temporary Paper Ticket (Iska istemal AFC System ke kharab hone par kiya jayega) shamil hain.",
+       "Ahmedabad Metro ke andar safar karne ke liye manzoor fare media yeh hain:\n Contactless Smart Token (CST)\n Contactless Smart Card (CSC) \n Temporary Paper Ticket (Iska istemal AFC System ke kharab hone par kiya jayega)."
+      ]
+    },
+    {
+      "tag": "Hmetrofaremediatype",
+      "patterns": [
+        "GMRC Network ke andar safar karne ke liye kaun-kuanse fare products uplabdh hain?",
+        "Ahmedabad metro mein safar karne ke liye kaun-kuanse fare products uplabdh hain?",
+        "Ahmedabad Metro mein uplabdh ticket ke kis-kis prakar hain?",
+        "Ahmedabad metro mein ticket ke prakar kya-kya hain?"
+      ],
+      "responses": [
+        "Ahmedabad Metro mein safar karne ke liye uplabdh fare products mein Single Journey Token (SJT), Group Ticket (10 ya usse adhik yatayatgaron ke liye), aur Tourist Ticket shamil hain.",
+        "Ahmedabad Metro ke andar safar karne ke liye uplabdh fare products yeh hain:\n Single Journey Token (SJT)\n Group Ticket (10 ya usse adhik yatayatgaron ke liye)\n Tourist Ticket."
+      ]
+    },
+    {
+      "tag": "Hmetrogroupticket",
+      "patterns": [
+        "GMRC Network ke andar safar karte samay Passenger Group Ticket se kis tarah se fayda utha sakte hain?",
+        "Ahmedabad Metro mein Group Ticket se passenger kis tarah se fayda utha sakte hain?",
+        "Ahmedabad Metro mein safar karte samay passenger Group Ticket se kis tarah se fayda utha sakte hain?",
+        "Kya Group ticket uplabdh hai?",
+        "Kya Ahmedabad Metro mein Group ticket uplabdh hai?",
+        "Ahmedabad Metro mein Group ticket ke liye kitne logon ki jarurat hai?",
+        "Ahmedabad Metro mein Group ticket ke liye kitne logon ki jarurat hai?",
+        "Group ticket ke liye logon ki sankhya kya hai?",
+        "Group ticket ke liye kitne logon ki sankhya chahiye?",
+        "Group ticket ke liye kin kin sharto ki jarurat hai?"
+      ],
+      "responses": [
+        "GMRC Network ke fare system ka istemal karte samay 10 se adhik logon ki samuh yatra kar rahe passenger Group Ticket se fayda utha sakte hain."
+      ]
+    },
+    {
+      "tag": "Hmetrotouristticket",
+      "patterns": [
+        "GMRC Network ke andar safar karte samay passenger Tourist Ticket se kis tarah se fayda utha sakte hain?",
+        "Ahmedabad Metro mein Tourist Ticket se passenger kis tarah se fayda utha sakte hain?",
+        "Ahmed abad Metro mein safar karte samay passenger Tourist Ticket se kis tarah se fayda utha sakte hain?",
+        "Kya Tourist ticket uplabdh hai?",
+        "Kya Ahmedabad Metro mein Tourist ticket uplabdh hai?",
+        "GMRC Network mein Tourist Ticket ka uddeshya kya hai?",
+        "Ahmedabad Metro mein Tourist Ticket ka uddeshya kya hai?",
+        "Tourist Ticket ka uddeshya kya hai?",
+        "Tourist ticket ke fayde kya hain?",
+        "Tourist ticket ke fayde kya hain?"
+      ],
+      "responses": [
+        "GMRC Network ke andar Tourist Ticket ko yatra ke liye banaya gaya hai aur ismein aam taur par tourist ke liye vishesh mulya ya sujhav shaamil hote hain, jo unke anubhav ko sudharne ke liye hote hain.",
+        "Ahmedabad Metro mein Tourist Ticket ko yatra ke liye banaya gaya hai aur ismein aam taur par tourist ke liye vishesh mulya ya sujhav shaamil hote hain, jo unke anubhav ko sudharne ke liye hote hain."
+      ]
+    },
+    {
+      "tag": "Hmetrochild",
+      "patterns": [
+        "Bachchon ke liye muft yatra ke liye unki height par kitni limit hoti hai?",
+        "Bachchon ko muft yatra ka labh uthane ke liye koi vishesh height ki maang hoti hai kya?",
+        "Bachchon ke liye muft yatra ke liye unki height ka thikana kya hai?",
+        "Kya aap bachchon ke muft yatra ke policy ke baare mein jaankari pradan kar sakte hain?",
+        "Kis height ke neeche ke bachchon ko muft yatra ki anumati hai?",
+        "Bachchon ke muft yatra ke liye policy kis tarah kaam karti hai, aur kya iske saath koi height limit hoti hai?",
+        "Kya koi bachchon ka ticket hota hai?",
+        "Bachchon ke ticket ke liye height kya hai?",
+        "Kya bachche muft yatra kar sakte hain?"
+      ],
+      "responses": [
+        "Sirf woh bachche muft yatra kar sakte hain jo 3 feet (90 cm) height ke neeche hain, agar kisi bade vyakti ke saath safar kar rahe hain."
+      ]
+    },
+    {
+      "tag": "Hmetrotokentime",
+      "patterns": [
+        "Yatra ke liye kharida gaya token kitne samay tak valid hota hai?",
+        "Token kab expire hoga?",
+        "Ticket kitni der tak kaam karega?",
+        "Yatra ke liye kharida gaya ticket kitne samay tak valid hota hai?",
+        "Token ka samay-simant kya hai?",
+        "Token ka samay-samapt kab hota hai?",
+        "Ticket ka samay-samapt kab hota hai?"
+      ],
+      "responses": [
+        "Yatra ke liye kharida gaya token kharidne ke ek bussiness din tak istemal ke liye valid hoga.\nBussiness ki paribhasha aayojit time table ke anusar hai"
+      ]
+    },
+    {
+      "tag": "Hmetropaymentmethods",
+      "patterns": [
+        "passenger fare media khareedne ke liye kaun-kaun se payment method uplabdh hain?",
+        "Ticket khareedne ke liye kaun-kaun se payment method uplabdh hain?",
+        "Passenger ticket khareedne ke liye kaun-kaun se payment method uplabdh hain?",
+        "Ticket khareedne ke liye uplabdh payment methods kya hain?",
+        "Ticket khareedne ke liye payment methods kya hain?",
+        "Kya card pay ke liye liya jata hai?",
+        "Kya main card ka istemal ticket khareedne ke liye kar sakta hoon?",
+        "Ahmedabad metro mein bhugtan ke liye card liya jata hai kya?",
+        "Kya debit card ticket khareedne ke liye uplabdh payment method hai?",
+        "Kya credit card ticket khareedne ke liye uplabdh payment method hai?",
+        "Kya cash ticket khareedne ke liye uplabdh payment method hai?",
+        "Kya POS ticket khareedne ke liye uplabdh payment method hai?",
+        "passenger fare media khareedne ke liye kaun-kaun se bhugtan vidhi uplabdh hain?",
+        "passenger fare media khareedne ke liye kaun-kaun se bhugtan vidhi uplabdh hain?",
+        "Fare media khareedne ke liye uplabdh payment methods kya hain?",
+        "Fare media khareedne ke liye payment methods kya hain?",
+        "Kya card payment ke liye liya jata hai?",
+        "Kya main card ka istemal fare media khareedne ke liye kar sakta hoon?",
+        "Ahmedabad metro mein bhugtan ke liye card liya jata hai kya?",
+        "Kya debit card fare media khareedne ke liye uplabdh payment method hai?",
+        "Kya credit card fare media khareedne ke liye uplabdh payment method hai?",
+        "Kya cash fare media khareedne ke liye uplabdh payment method hai?",
+        "Kya POS fare media khareedne ke liye uplabdh payment method hai?"
+      ],
+      "responses": [
+       "Passengers ko payment ke liye cash ya POS (Debit/Credit Card) ka upayog karke fare media aur products khareedne ka option hota hai."
+      ]
+    },
+    {
+      "tag": "Hmetrorefund",
+      "patterns": [
+        "GMRC Network ke andar tokens ke liye refund prakriya kaise kaam karti hai?",
+        "Ahmedabad metro mein tokens ke liye refund prakriya kaise kaam karti hai?",
+        "Passenger kab tokens ke liye refund ke liye request kar sakte hain, aur refund prapt karne ke liye vishesh shartein kya hain?",
+        "Entry ke liye use nahi kiye gaye tokens ko kitne samay tak refund kiya ja sakta hai?",
+        "Ahmedabad metro mein refund policy kya hai?",
+        "Kya main use nahi kiye gaye ticket ke liye refund prapt kar sakta hoon?",
+        "Kya main use nahi kiye gaye token ke liye refund prapt kar sakta hoon?",
+        "Mere paas unused token hai. Kya main refund prapt kar sakta hoon?",
+        "Mere paas unused ticket hai. Kya main refund prapt kar sakta hoon?"
+      ],
+      "responses": [
+        "Kewal unused Contactless Smart Token (CST) (pravesh ke liye use nahi kiye gaye) ko same station se 30 minutes ke andar refund kiya ja sakta hai."
+      ]
+    },
+    {
+      "tag": "Hmetromaxtimeexit",
+      "patterns": [
+        "GMRC Network se same station se nikalne ka maximum samay kya hai?",
+        "Same station se nikalne ka maximum samay kya hai?",
+        "Same station se nikalne ke liye permissable maximum samay kya hai?",
+        "GMRC Network se alag station se nikalte samay nikalne ka maximum samay alag hota hai kya?",
+        "Alag station se nikalte samay nikalne ke liye maximum samay kya hai?",
+        "Alag station se nikalte samay nikalne ka maximum samay alag hota hai kya?",
+        "Same station se nikalte samay nikalne ka maximum samay alag hota hai ya alag station se nikalte samay?"
+      ],
+      "responses": [
+        "Agar same station se nikal rahe hain toh 20 minutes ka samay aur agar kisi aur station se nikal rahe hain toh 120 minutes ka samay diya gaya hai."
+      ]
+    },
+    {
+      "tag": "Hmetroluggage",
+      "patterns": [
+        "GMRC Network ke andar passengers ke liye weight aur dimension se saman ki limit kya hain?",
+        "Ahmedabad metro mein passengers ke liye weight aur dimension se saman ki limit kya hain?",
+        "Ahmedabad metro mein passengers ke liye weight aur dimension se saman ki limit kya hain?",
+        "passengers ke liye yatra ke doran permission di gayi saman ki limit kya hain?",
+        "Kya aap please passengers ke liye permission di gayi saman ki jankari de sakte hain?"
+      ],
+      "responses": [
+        "Passenger ko 25 Kg weight aur 80 cm x 50 cm x 30 cm (Length x Width x Height) ke dimension ko le jane ki permission hai. Is limit se jyada saman ki permission nahi hogi."
       ]
     }
   ]
