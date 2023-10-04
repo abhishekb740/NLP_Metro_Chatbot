@@ -9,3 +9,4 @@ def tokenize_without_numbers(text):
     for token in tokens:
         newTokens.append(token.lower())
     return newTokens
+
