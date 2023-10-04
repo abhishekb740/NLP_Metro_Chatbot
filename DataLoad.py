@@ -23,8 +23,7 @@ for intent in intents['intents']:
         # print("**************************************** print the tokenization of words ************************************************", "\n\n")
         print("Tokenized Words", w)
         w2 = removal_of_stop_words(w)
-        # print("**************************************** print the Stop of words ************************************************" ,'\n\n' )
-        
+        print("**************************************** print the Stop of words ************************************************" ,'\n\n' )
         print("Stopwords Removed", w2)
         # print("**************************************** print the Stemming of words ************************************************" ,"\n\n")
         w3=stemming(w2)
