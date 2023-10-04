@@ -7,8 +7,7 @@ steming = {
         ('naa' , ''),  #likhnaa -> likh
         ('ai' , ''),  # sunai -> sun
         ('ti' ,''),  # gati -> ga
-        ('te', ''),  # chalte -> chal
-        ('o' , ''),  # jaao -> jaa
+        ('te', ''),  # chalte -> chal  
         ('na' , ''), # jaana -> ja
         ('ta' , '') # uthta -> uth
     }
