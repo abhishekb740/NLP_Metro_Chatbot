@@ -301,8 +301,6 @@ step1a_set = [
     ("ist", ""),
     ("ists", "ist"),
     ("ist", ""),
-
-
 ]
 
 
