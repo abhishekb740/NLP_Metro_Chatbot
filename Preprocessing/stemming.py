@@ -73,8 +73,8 @@ step1a_set = [
     ("isticatedness", "isticate"),
     ("istication", "isticate"),
     ("istications", "isticate"),
-    ("evening", "evening")
-    ("morning", "morning")
+    ("evening", "evening"),
+    ("morning", "morning"),
     ("ism", ""),
     ("isms", "ism"),
     ("ist", ""),

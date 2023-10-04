@@ -17,16 +17,18 @@ for intent in intents["intents"]:
     # add to tag list
     tags.append(tag)
     for pattern in intent['patterns']:
+        print("**************************************** print the data before tokenization ************************************************", "\n")
+        print(pattern)
         w = tokenization_of_words(pattern)
-        print("**************************************** print the tokenization of words ************************************************", "\n\n")
+        print("\n", "**************************************** print the tokenization of words ************************************************", "\n")
         print("Tokenized Words", w)
         # print("Tokenized Hinglish",w)
         stemmed_words = []
         for word in w:
             w1 = stem_word(word)
             stemmed_words.append(w1)
-        print("**************************************** print the Stemming of words ************************************************" ,"\n\n")
-        print("Stemmed Words", stemmed_words)
+        print("\n", "**************************************** print the Stemming of words ************************************************" ,"\n")
+        print("Stemmed Words", stemmed_words , "\n")
 
 # Print the stemmed dataset
 # for intent in stemmed_dataset:

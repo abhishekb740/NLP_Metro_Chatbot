@@ -1,6 +1,6 @@
 import json
 
-with open('DataHinglish.json', 'r') as f:
+with open('data.json', 'r') as f:
     intents = json.load(f)
     
 
