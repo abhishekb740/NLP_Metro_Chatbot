@@ -1,4 +1,4 @@
-step1a_set = [
+stemming_rules = [
     ("sses", "ss"),
     ("ies", "i"),
     ("ss", "ss"),
@@ -325,7 +325,7 @@ step1a_set = [
 def stemming(all_words):
     stemmed_word = []
     for w in all_words:
-        for rules in step1a_set:
+        for rules in stemming_rules:
             suffix, replace = rules
             if w.endswith(suffix):
                 w = w[:-len(suffix)] + replace

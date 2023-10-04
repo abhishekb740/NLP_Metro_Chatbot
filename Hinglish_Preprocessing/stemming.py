@@ -9,7 +9,8 @@ steming = {
         ('ti' ,''),  # gati -> ga
         ('te', ''),  # chalte -> chal  
         ('na' , ''), # jaana -> ja
-        ('ta' , '') # uthta -> uth
+        ('ta' , ''), # uthta -> uth
+        ('ne', '') # nikalne -> nikal
     }
 
 

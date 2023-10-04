@@ -16,32 +16,30 @@ tags = []
 xy = []
 
 # Process the intents
+count = 0
 for intent in intents["intents"]:
     tag = intent['tag']
     # add to tag list
     tags.append(tag)
     for pattern in intent['patterns']:
-        print("******** Data before tokenization ********", "\n")
-        print(pattern)
+        print("************* Data Processing", count, "**************\n")
+        count = count+1
+        print("Data", pattern, "\n")
         w = tokenization_of_words(pattern)
-        print("\n", "******** tokenization the words ********", "\n")
-        print("Tokenized Words", w)
-        
+        print("Data After Tokenization", w, "\n")
         w1 = HindiStopWords(w)
-        print("\n","******** Removed the Stop words ********", "\n")
-        print("Stopwords after Removed", w1)
+        print("Data After Removal of Stopwords", w1, "\n")
         
         stemmed_words = []
         for word in w1:
             w2 = stemming(word)
             stemmed_words.append(w2)
-        print("\n", "******** Stemming of words ********" ,"\n")
-        print("Stemmed Words", stemmed_words , "\n")
+        print("Data After stemming", stemmed_words , "\n\n\n\n\n\n")
         
         xy.extend((tag , stemmed_words))
 
 
 
-print(len(xy), "patterns" , xy , '\n')
+# print(len(xy), "patterns" , xy , '\n')
 print(len(tags), "tags:", tags , '\n')
-print(len(stemmed_words), "unique stemmed words:", stemmed_words , '\n')
+# print(len(stemmed_words), "unique stemmed words:", stemmed_words , '\n')
