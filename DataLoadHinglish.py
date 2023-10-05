@@ -13,7 +13,7 @@ from Hinglish_Preprocessing.removalStopWords import Hinglish_stop_words as Hindi
 
 all_stemWords = []
 tags = []
-xy = []
+dataPattern = []
 
 # Process the intents
 count = 0
@@ -34,12 +34,13 @@ for intent in intents["intents"]:
         for word in w1:
             w2 = stemming(word)
             stemmed_words.append(w2)
-        print("Data After stemming", stemmed_words , "\n\n\n\n\n\n")
-        
-        xy.extend((tag , stemmed_words))
+        print("Data After stemming", stemmed_words , "\n")
+          # create our training data
+        join_words = ' '.join(stemmed_words)
+        print("Final Data : ", join_words, "\n\n\n\n\n")
+        dataPattern.extend((tag , stemmed_words))
 
 
 
-# print(len(xy), "patterns" , xy , '\n')
+print(len(dataPattern), "patterns" , dataPattern , '\n')
 print(len(tags), "tags:", tags , '\n')
-# print(len(stemmed_words), "unique stemmed words:", stemmed_words , '\n')

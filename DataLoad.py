@@ -23,14 +23,16 @@ for intent in intents['intents']:
         print("************* Data Processing", count, "**************\n")
         count = count+1
         # tokenize each word in the sentence
-        print("Data", pattern, "\n")
+        print("Data : ", pattern, "\n")
         w = tokenization_of_words(pattern)
         print("Data After Tokenization", w, "\n")
         w2 = removal_of_stop_words(w)
         print("Data After Removal of Stopwords", w2, "\n")
-        # print("**************************************** print the Stemming of words ************************************************" ,"\n\n")
         w3 = stemming(w2)
-        print("Data After stemming", w3, "\n\n\n\n\n")
+        print("Data After stemming", w3, "\n")
+        # create our training data
+        join_words = ' '.join(w3)
+        print("Final Data : ", join_words, "\n\n\n\n\n")
         # add to our words list
         all_words.extend(w3)
         # add to xy pair
