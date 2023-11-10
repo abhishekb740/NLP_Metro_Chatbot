@@ -219,6 +219,7 @@ stemming_rules = [
     ("ionizing", "ionize"),
     ("ionized", "ionize"),
     ("ional", ""),
+    
     ("ionally", ""),
     ("ioning", "ion"),
     ("ionings", "ioning"),
