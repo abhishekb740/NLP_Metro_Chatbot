@@ -40,7 +40,7 @@ def get_response(user_input):
                 best_match_score = similarity_score
                 best_match_intent = intent
 
-    if best_match_intent and best_match_score >= 0.7:  # Adjust the similarity threshold as needed
+    if best_match_intent and best_match_score >= 0.5:  # Adjust the similarity threshold as needed
         responses = best_match_intent['responses']
         return random.choice(responses)  # Select a random response from the available responses
 
